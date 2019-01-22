@@ -1,5 +1,5 @@
 $(function() {
-    var spreadsheet_id = (getParameterByName('id') ? getParameterByName('id') : '151wYbceiQIj8NEBiLCZNDFX1CEtirddu7tCOU4NR6AA')
+    var spreadsheet_id = (getParameterByName('id') ? getParameterByName('id') : '2PACX-1vShDmRgOLYl6I2HfhFdOBWJeVFIIgPyMeciGGJn8YR14ZlQpL8gCsfz7oO4NvtJdFV_cQl6c8J3Z2nH')
     var style_mode = (getParameterByName('style') ? getParameterByName('style') : 'light').toLowerCase()
     var primary_color = (getParameterByName('color') ? getParameterByName('color') : 'white').toLowerCase()
     $("#sheet_id").val(spreadsheet_id)
