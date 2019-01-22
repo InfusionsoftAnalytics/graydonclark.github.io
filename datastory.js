@@ -1,5 +1,5 @@
 $(function() {
-    var spreadsheet_id = (getParameterByName('id') ? getParameterByName('id') : '151wYbceiQIj8NEBiLCZNDFX1CEtirddu7tCOU4NR6AA')
+    var spreadsheet_id = (getParameterByName('id') ? getParameterByName('id') : '1uqUGmgZHmiV1QUFPOy5lsZC7yx6xuFX9yUjrnOUGOZA')
     var style_mode = (getParameterByName('style') ? getParameterByName('style') : 'light').toLowerCase()
     var primary_color = (getParameterByName('color') ? getParameterByName('color') : 'white').toLowerCase()
     $("#sheet_id").val(spreadsheet_id)
